@@ -1,0 +1,122 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #e6e6e6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3df5a888;
+  border-radius: 100px;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #08aeea;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(61, 245, 168, 0.678) 11.2%,
+    rgba(9, 111, 224, 1) 91.1%
+  );
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  color: #ffffffd0;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 0.4em 0.8em;
+  border: none;
+  margin: 0 0.5rem 2rem 0.5rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: border-color 0.25s;
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
+}
+button.selected {
+  box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
+}
+.dashboard-container {
+  margin: 2rem auto;
+  min-height: 90vh;
+}
+.widgetsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 95vw;
+}
+.widgets {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.sideWidgets {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+  .widgetsContainer {
+    width: 100vw;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+  .widgets {
+    width: 90%;
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+  .sideWidgets {
+    width: 90%;
+  }
+}

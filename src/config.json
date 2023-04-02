@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Dashboard1",
+    "widgets": [
+      {
+        "name": "cost",
+        "title": "cost",
+        "subtitle": "cost",
+        "type": "",
+        "position": 1
+      },
+      {
+        "name": "cpu",
+        "title": "cpu",
+        "subtitle": "cpu",
+        "type": "",
+        "position": 2
+      },
+      {
+        "name": "randomList",
+        "title": "Random List",
+        "subtitle": "this is a random list",
+        "type": "",
+        "position": 3
+      }
+    ],
+    "sideWidgets": [
+      {
+        "name": "memory",
+        "title": "memory",
+        "subtitle": "memory",
+        "type": "",
+        "position": 1
+      },
+      {
+        "name": "pieChart",
+        "title": "Pie Chart",
+        "subtitle": "Pie Chart",
+        "type": "pie",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "title": "Dashboard2",
+    "widgets": [
+      {
+        "name": "stats",
+        "title": "stats",
+        "subtitle": "stats",
+        "type": "",
+        "position": 1
+      },
+      {
+        "name": "lineGraph",
+        "title": "Line Graph",
+        "subtitle": "This is a line graph",
+        "type": "line",
+        "position": 2
+      },
+      {
+        "name": "barGraph",
+        "title": "Bar Graph",
+        "subtitle": "This is a bar graph",
+        "type": "bar",
+        "position": 3
+      }
+    ],
+    "sideWidgets": [
+      {
+        "name": "memory",
+        "title": "memory",
+        "subtitle": "memory",
+        "type": "",
+        "position": 1
+      },
+      {
+        "name": "tabularData",
+        "title": "Tabular Data",
+        "subtitle": "Tabular Data",
+        "type": "",
+        "position": 2
+      }
+    ]
+  }
+]

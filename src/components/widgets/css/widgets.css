@@ -1,0 +1,99 @@
+.hbox {
+  background: rgba(232, 233, 233, 0.308);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 47%;
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 6rem;
+}
+.fbox {
+  background: rgba(232, 233, 233, 0.308);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  min-height: 6rem;
+  width: 97%;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.sbox {
+  background: rgba(232, 233, 233, 0.308);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  min-height: 6rem;
+  width: 96%;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.cpu {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffffd0;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.cost {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffffd0;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.randomlist {
+  max-height: 50vh;
+  overflow: scroll;
+  padding: 1rem;
+}
+.randomlist ol {
+  text-align: left;
+}
+.memory {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffffd0;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.stats-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stats-container > div {
+  max-width: 100px;
+}
+.linegraph {
+}
+.bargraph {
+}
+.tablecontainer {
+  overflow: scroll;
+  max-height: 50vh;
+}
+.piechart {
+  background: rgba(232, 233, 233, 0.308);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  min-height: 6rem;
+  width: 96%;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+  .cpu,
+  .memory,
+  .cost {
+    font-size: 2rem;
+  }
+  .hbox {
+    margin: auto;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+table {
+  font-size: 0.7rem;
+}
