@@ -21,12 +21,11 @@
 [https://ops-react-dashboard.vercel.app/](https://ops-react-dashboard.vercel.app/)
 
 <h2>Project Screenshots:</h2>
-
-<img src="https://i.imgur.com/gZbCMOH.png" alt="project-screenshot" width="100" height="400/">
-
-<img src="https://i.imgur.com/N75IBoP.png" alt="project-screenshot" width="100" height="400/">
-
-<img src="https://i.imgur.com/q5x0P2m.png" alt="project-screenshot" width="240" height="400/">
+<p align="center">
+<img src="https://i.imgur.com/gZbCMOH.png" alt="project-screenshot" width="100">
+<img src="https://i.imgur.com/N75IBoP.png" alt="project-screenshot" width="100">
+<img src="https://i.imgur.com/q5x0P2m.png" alt="project-screenshot" width="240">
+</p>
 
 <h2>🛠️ Installation Steps:</h2>
 
